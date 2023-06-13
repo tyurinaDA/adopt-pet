@@ -1418,7 +1418,7 @@ color: #fc4f4f;
 }
 
 .gallery_item2 {
-    background-image: url(/pic/shop/dog3.jpeg);
+    background-image: url(../pic/shop/dog3.jpeg);
     background-size: cover;
     width: 500px;
     height: 300px;
@@ -1475,7 +1475,7 @@ color: #fc4f4f;
 }
 
 .gallery_item3 {
-    background-image: url(/pic/shop/cat1.jpeg);
+    background-image: url(../pic/shop/cat1.jpeg);
     background-size: cover;
     width: 400px;
     height: 300px;
@@ -1495,7 +1495,7 @@ color: #fc4f4f;
 }
 
 .gallery_item4 {
-    background-image: url(/pic/shop/bird.png);
+    background-image: url(../pic/shop/bird.png);
     width: 600px;
     height: 300px;
     background-size: 100%;
@@ -1515,7 +1515,7 @@ color: #fc4f4f;
 }
 
 .gallery_item5 {
-    background-image: url(/pic/shop/fish3.jpeg);
+    background-image: url(../pic/shop/fish3.jpeg);
     width: 730px;
     height: 300px;
     background-size: 100%;
@@ -1535,7 +1535,7 @@ color: #fc4f4f;
 }
 
 .gallery_item6 {
-    background-image: url(/pic/shop/small5.jpeg);
+    background-image: url(../pic/shop/small5.jpeg);
     width: 730px;
     height: 300px;
     background-size: 100%;
@@ -1555,7 +1555,7 @@ color: #fc4f4f;
 }
 
 .gallery_item7 {
-    background-image: url(/pic/shop/reptiles.jpeg);
+    background-image: url(../pic/shop/reptiles.jpeg);
     width: 600px;
     height: 300px;
     background-size: 100%;
