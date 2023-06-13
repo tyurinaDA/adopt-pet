@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Объявления</title>
+</head>
+<body>
+<header>
+    <h1>Объявление о находке</h1>
+</header>
+    <main>
+        <h3>Форма заполнения</h3>
+        <br><form action="" method=""></form>
+        <label for="date">Дата находки </label>
+        <input type="date" name="date">
+         <br><br><label for="name">Имя</label>
+         <input type="text" name="name" placeholder="Ваше имя">
+
+         <label for="tel">Контактный телефон</label>
+         <input type="tel" name="tel" placeholder="номер для связи">
+
+      <br><br> <textarea name="comment" id="comment-field" cols="30" rows="10">Опишите ситуацию, что случилось</textarea>
+      <br><br> <label for="photo">Фото животного</label>
+      <input type="file" name="photo" accept="image/png, image/jpg">
+      <button type="submit"> Отправить</button>
+      <h4>Выберете подходящие варианты:</h4>
+      <label for="cat">Кот</label>
+       <input type="checkbox" name="cat">
+      <br><label for="dog">Собака</label><input type="checkbox" name="dog">
+      <br>Раненое животное<input type="checkbox" name="injured">
+      <br>Экстренная ситуация<input type="checkbox" name="SOS">
+      <br>Представляет опасность окружающим<input type="checkbox" name="help">
+      <br>Могу самостоятельно оплатить лечение<input type="checkbox" name="self_help">
+      <br>Нужна помощь волонтеров в сборе средств<input type="checkbox" name="volonteers_help">
+      <br><br>  <button type="submit" name="send" id="send_results">Отправить</button>
+      <br><br> Хотите получать уведомления о Вашем объявления?
+        <label for="radio">Да</label>
+        <input type="radio" name="yes" value="yes">
+        <label for="radio">Нет</label>
+        <input type="radio" name="no" value="no">
+      <br> <br> <label for="mark">Оцените пожалуйста удобство работы с сайтом по шкале от
+      1</label> <input type="range" id="mark" name="mark" min="1" max="10" step="1"> 10
+      <output name="sum"> </output>
+      
+    
+
+    </main>
+    <footer>
+       <br> <button type="submit"> <a href="/">На главную</a></button>
+    </footer>
+</body>
+</html>
