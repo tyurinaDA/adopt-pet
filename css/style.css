@@ -1303,7 +1303,7 @@ text-align: center;
 }
 
 .header_shop {
-    background-image: url(/pic/fonn3.jpg);
+    background-image: url(../pic/fonn3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 590px;
@@ -1355,7 +1355,7 @@ color: #fc4f4f;
 }
 
 .gallery_item1 {
-    background-image: url(/pic/shop/sale00.jpeg);
+    background-image: url(../pic/shop/sale00.jpeg);
     background-size: cover;
     width: 400px;
     height: 300px;
